@@ -21,6 +21,7 @@ class extends lapis.Application
     dbg = Ldebug(random_table)
 
 	-- print to lapis server shell
+	-- will print out 'random_table' as a string
     dbg\print!
 
 	-- enter interactive debug
